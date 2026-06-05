@@ -1,0 +1,35 @@
+﻿namespace PVC_stolarija
+{
+    partial class MainForm
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        /// <param name="disposing"></param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            SuspendLayout();
+            // 
+            // MainForm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(767, 505);
+            Name = "MainForm";
+            Text = "Glavni meni - PVC stolarija";
+            ResumeLayout(false);
+        }
+
+        #endregion
+    }
+}
